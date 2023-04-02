@@ -165,6 +165,31 @@
       </div>
     </div>
 
+    <div class="chart container">
+      <div class="linegraph">
+        <div class="card-title flex-between">
+          <div>
+            <p>OVERVIEW</p>
+            <h3>Sales value</h3>
+          </div>
+          <div class="chart-btns">
+            <button class="btn-blue">Month</button>
+            <button class="btn-white">Week</button>
+          </div>
+        </div>
+        <canvas id="myChart"></canvas>
+      </div>
+      <div class="chartbar">
+        <div class="card-title">
+          <div>
+            <p>OVERVIEW</p>
+            <h3>Sales value</h3>
+          </div>
+        </div>
+        <canvas id="chartBar" height="300px"></canvas>
+      </div>
+    </div>
+
     <div class="container">
       <div class="cards">
         <div class="card">
@@ -839,6 +864,9 @@
       </ul>
     </footer>
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="chart.js"></script>
 </body>
 
 </html>
