@@ -1,0 +1,16 @@
+input,
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,9 @@
+:root {
+  --transition: all 0.3s ease-in-out;
+  --bg-body: #f8f9fe;
+  --blue: #5e72e4;
+  --shadow-white: 0px 1px 3px rgba(50, 50, 93, 0.15),
+    0px 1px 0px rgba(0, 0, 0, 0.02);
+  --text-color: #32325d;
+  --border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
